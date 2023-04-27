@@ -28,11 +28,12 @@ public class Room {
     }
 
     public String getActions() {
-        String actionString = "Please select";
+        String actionString = "Please select one of the following:";
 
         for (String a : actions) {
-            actionString = actionString + " " + a;
+            actionString = actionString + " " + "\"" + a + "\"\t";
         }
+
 
         return actionString;
     }
