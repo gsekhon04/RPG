@@ -6,15 +6,15 @@ public class Map {
     HashMap<String, Room> map;
 
     //Constructor that initializes map to a new HashMap
-    public AdventureMap()
+    public Map()
     {
         map = new HashMap<>();
     }
-    
+
     /**
-     * Adds a room to the AdventureMap
-     * The name associated in the room must be lowercase
-     * @param room Room to be added to the AdventureMap
+     * Adds a room to the map
+     * The name associated in the room is lowercase
+     * @param room Room to be added to the map
      */
     public void addRoom(Room room)
     {
