@@ -31,7 +31,7 @@ public class Room {
         String actionString = "Please select one of the following:";
 
         for (String a : actions) {
-            actionString = actionString + " " + "\"" + a + "\"\t";
+            actionString = actionString + " " + "\"" + a + "\"   ";
         }
 
 
