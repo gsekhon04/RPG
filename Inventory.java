@@ -2,9 +2,10 @@ import java.util.ArrayList;
 
 public class Inventory {
     private boolean hasItem = false;
+    private ArrayList<String> inventory;
 
     public Inventory() {
-        ArrayList<String> inventory = new ArrayList<String>();
+        inventory = new ArrayList<String>();
         inventory.add("Coin");
     }
 
@@ -16,7 +17,7 @@ public class Inventory {
         inventory.remove(item);
     }
 
-    public void printInventory {
+    public void printInventory() {
         for (String s : inventory) {
             System.out.println(s);
         }
