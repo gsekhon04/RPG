@@ -18,8 +18,13 @@ public class Inventory {
     }
 
     public void printInventory() {
-        for (String s : inventory) {
-            System.out.println(s);
+        if (inventory.size() == 0) {
+            System.out.println("You have nothing in your inventory.");
+        } else {
+            System.out.println("Inventory:");
+            for (String s : inventory) {
+                System.out.println(s);
+            }
         }
     }
 
