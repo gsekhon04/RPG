@@ -1,3 +1,11 @@
+/**
+ * Gunar Sekhon
+ * Programming Assignment 2: RPG
+ * Section: 020
+ * 05/04/23
+ */
+
+//Imports HashMap class
 import java.util.HashMap;
 
 public class Map {

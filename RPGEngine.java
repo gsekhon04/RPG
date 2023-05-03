@@ -1,3 +1,10 @@
+/**
+ * Gunar Sekhon
+ * Programming Assignment 2: RPG
+ * Section: 020
+ * 05/04/23
+ */
+
 //Imports Scanner, FileNotFoundException, FileOutputStream, and PrintWriter classes
 import java.util.Scanner;
 import java.io.FileNotFoundException;

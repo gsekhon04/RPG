@@ -1,3 +1,11 @@
+/**
+ * Gunar Sekhon
+ * Programming Assignment 2: RPG
+ * Section: 020
+ * 05/04/23
+ */
+
+//Imports ArrayList class
 import java.util.ArrayList;
 
 public class Inventory {
